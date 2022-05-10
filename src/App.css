@@ -1,0 +1,32 @@
+
+  
+.blueBar{
+  margin: auto;
+  border-bottom: 25px solid rgba(93,146,247,1);
+  width: 70%;
+  height: 150px;
+  
+
+}
+
+
+img {
+  width:100px;
+  height:100px;
+  
+ }
+
+ h1{
+
+padding-top: 1.5em;
+ }
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+.Navbar {
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
