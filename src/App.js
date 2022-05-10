@@ -1,5 +1,5 @@
 
-import Footer from "./components/Footer";
+
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -28,7 +28,7 @@ function App() {
       
     </Router>
 
-    <Footer/>
+
     </div>
 
   );
