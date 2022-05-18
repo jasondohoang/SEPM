@@ -1,16 +1,14 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+import Filter from '../components/filter';
 
 const Men = () => {
   return (
-    <div  style={{
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      height: '90vh'
-    }}>
-      <h1>Men Clothes</h1>
-    </div>
+    <div > <Filter/></div>
+     
+    
   );
 };
 
 export default Men;
+
