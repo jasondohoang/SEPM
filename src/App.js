@@ -11,7 +11,7 @@ import SignIn from './pages/signin';
 import Cart from './pages/Cart';
 import Footer from "./components/Footer";
 import ClothesDetail from './pages/ClothesDetail';
-import Filter from './pages/filter';
+
 
 
 
@@ -31,7 +31,7 @@ function App() {
         <Route path='/cart' element={<Cart/>} />
         <Route path='/signin' element={<SignIn/>} />
         <Route path='/clothes-detail' element={<ClothesDetail/>}/>
-        <Route path='/filter' element = {<Filter/>}/>
+        
 
 
       </Routes>
