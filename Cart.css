@@ -1,0 +1,154 @@
+.body-container {
+  background-color: #ffb55e;
+  justify-content: center;
+  /* width: 100%; */
+  padding-top: 20px;
+  
+}
+
+.body-container h1 {
+  text-align: center;
+  /* border: 1px solid white; */
+  color: white;
+  padding: 10px 20px 10px 20px;
+}
+
+.main-section {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 1280px;
+  width: 100%;
+  padding: 20px;
+  margin: 0px;
+}
+
+.btn-wishlist:hover {
+  background-color: gainsboro;
+}
+
+.wishlist {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-left: 5em;
+}
+
+.btn-wishlist {
+  display: block;
+  width: 150px;
+  padding-left: 30px;
+  border: 1px solid gainsboro;
+  border-radius: 6px;
+  outline: none;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 30px;
+}
+
+
+.product-image {
+
+  width:  500px;
+  height: 800px;
+}
+
+.product-form .title {
+  text-align: center;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.product-form p {
+  font-weight: bold;
+}
+
+.product-form input,
+textarea {
+  appearance: none;
+  outline: none;
+  height: 50px;
+  background-color: #c4c4c4;
+  color: white;
+  padding: 10px 30px 10px 20px;
+  max-width: 90%;
+  width: 90%;
+}
+
+.inp-messages {
+  height: 200px;
+}
+
+.product-list {
+  margin-top: 100px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.product-item p {
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
+
+.btn-send {
+  margin-top: 20px;
+  display: block;
+  margin-right: 10px;
+  padding-left: 30px;
+  border: 1px solid gainsboro;
+  border-radius: 6px;
+  outline: none;
+  width: 90%;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 30px;
+}
+
+.btn-send:hover {
+  background-color: gainsboro;
+}
+
+.checkout-section {
+  font-size: 20px;
+}
+
+.btn-continue {
+  padding: 10px 150px 10px 50px;
+  background-color: #18a0fb;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  transition: all;
+  transition-duration: 300ms;
+  
+  
+}
+
+.btn-continue:hover {
+  color: black;
+  background-color: gainsboro;
+}
+
+
+.btn-delete {
+  padding: 10px 150px 10px 50px;
+  background-color: rgb(245, 50, 50);
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  transition: all;
+  transition-duration: 300ms;
+  
+  
+}
+
+.btn-delete:hover {
+  color: black;
+  background-color: gainsboro;
+}

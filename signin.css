@@ -1,0 +1,26 @@
+.SignIn-container{
+
+    border-radius: 25px;
+    background: #FCD59B;
+    padding: 20px; 
+    width: 700px;
+    height: 300px;  
+
+   
+    top: 50%;
+    left: 50%;
+    
+    margin-left: 30%;
+    
+
+   
+
+  }
+
+.container-signin{
+
+ background-color: #FFB55E ;
+
+ height: 550px;  
+padding-top: 5em;
+}
